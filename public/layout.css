@@ -1,0 +1,182 @@
+body{
+    background-color:white;
+}
+#login
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#btnRegister
+{
+    background-color: rgb(99, 169, 248);
+    color: white;
+    padding: 4px;
+    height: 30px;
+    
+    width: 110px;
+    
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+    font-size: 18px;
+}
+#userN{
+   
+    
+    padding-left: 5px;
+    border-radius: 10px;
+    border:solid 1px rgb(99, 169, 248);;
+    resize: vertical;
+    height: 30px;
+    font-size: 18px;
+    
+   
+}
+header{
+    background: rgb(82, 83, 83);
+    color:  white;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+#waper{
+   
+    color:black;
+   
+    font-size: 20px;
+    
+   
+   
+}
+#left{
+    width: 29%;
+    margin-right: 2px;
+    float: left;
+}
+#right{
+    width: 70%;
+    
+    float: right;
+   
+    
+    
+   
+  
+}
+
+#boxT{
+    
+    text-align : center;
+    padding: 15px;
+    color:black;
+    font-weight: bold;
+    background-color: rgb(243, 243, 243) ;
+  
+   
+}
+#boxC{
+    border-left: solid 3px rgb(106, 107, 107); 
+    height: 450px;
+    border-top : none;
+    padding: 5px;
+    overflow-y: scroll;
+    font-size: 20;
+    font-weight: bold;
+    background-color: rgb(243, 243, 243) ;
+    
+    
+}
+
+#lag{
+    height: 400px;
+    background: white;
+    color: black;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-bottom:solid 1px rgb(231, 231, 231); 
+    border-left:solid 1px rgb(221, 224, 230); 
+   
+
+    overflow-y: scroll;
+}
+#textMess{
+   
+    width: 82%;
+    padding: 8px;
+    border-radius: 30px;
+    border:none;
+    resize: vertical;
+    height: 30px;
+    font-size: 18px;
+    background-color: rgb(241, 239, 239) 
+    
+   
+}
+
+
+#sayHi
+{
+    
+   
+    
+    border-bottom: solid 1px rgb(220, 222, 228); 
+    text-align : center;
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px;
+   
+}
+#currUser
+{
+    margin-right: 20px;
+   
+}
+#btnLogout
+{
+    background: rgb(248, 99, 99);
+    color: white;
+    padding: 2px;
+    height: 30px;
+    
+    width: 100px;
+    float: right;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+   
+    font-size: 15px;
+}
+#btnLogout:hover{
+    background: rgb(247, 11, 11);
+}
+#btnSendMess
+{
+    background-color: rgb(99, 169, 248);
+    color: white;
+    padding: 8px;
+    height: 35px;
+    
+    width: auto;
+    
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+   
+}
+#btnSendMess:hover
+{
+    background-color: rgb(4, 118, 248);
+}
+#color{
+   color: rgb(161, 159, 159);
+   font-style: italic;
+}

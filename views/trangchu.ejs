@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Demo Chat</title>
+    <script src="jquey.js"></script>
+    <script src="https://chatbyweb.herokuapp.com/socket.io/socket.io.js"></script>
+    <script src="xuly.js"></script>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+
+<body>
+        <div id="login">
+                <h1>Enter Your name</h1>
+                <input type="text" id="userN" placeholder="yourName" />
+                <input type="button" value="Register" id="btnRegister" />
+            </div>
+    <div id="waper">
+
+        
+        <div id="chat">
+            <header>Demo Chat Web</header>
+            <div id="left">
+                <div id="boxT">User Online</div>
+                <div id="boxC"></div>
+            </div>
+            <div id="right">
+                <div id="sayHi">Hello <span id="currUser"></span>
+                    <input type="button" id="btnLogout" value="Logout">
+
+                </div>
+                <div id="lag">
+                    <div id="ListMess">
+
+                    </div>
+                    <div id="thongbao"></div>
+                </div>
+
+
+                <div id="chattext">
+                    <input type="text" id="textMess" placeholder="Input Messeage" />
+                   
+                    <input type="image" src="02d4886f9c.svg" alt="send" id="btnSendMess" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
